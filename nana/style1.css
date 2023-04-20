@@ -1,0 +1,299 @@
+
+/* main page */
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300,400');
+
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 4.5rem;
+  letter-spacing: 0.5rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+hr{
+    border: none;
+}
+a {
+  color:#5bc0de;
+}
+
+a:hover {
+  color: #31b0d5;
+  text-decoration: none;
+}
+
+#hm {
+  min-height: 100%;
+}
+
+.heading {
+  color: #FFF;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+
+.middle {
+  color: #FFF;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+.col-sm-12{
+  display: flex;
+  justify-content: center;
+}
+.bg-img1 {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://wallpapercave.com/wp/wp1906348.png');
+}
+
+.bg-img2 {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://i.pinimg.com/originals/d8/6a/69/d86a69f18bcb6c69aba18c27e6cf58fb.gif');
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.containert {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 850px;
+}
+
+.cardmm {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.cardmm-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .parallax {background-attachment: scroll;}
+  .heading {top: 30%;} 
+  .middle {top: 15%;}
+}
+
+
+nav {
+    text-align:center;
+    width: 100%;
+    background: #bebebe;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    position:relative;
+  }
+  
+  nav ul {
+    background: #bebebe;
+    list-style:none;
+    padding:0 20px;
+    margin: 0;
+    height: 60px;
+  
+  }
+  
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  
+  nav ul li a {
+    color:#333333;
+    display:block;
+    padding:0px 40px;
+    text-decoration:none;
+    float: left;
+    height: 60px;
+     line-height: 60px;
+  }
+  
+  nav ul li:hover {
+    background: #333333;
+  }
+  
+  
+  nav ul li:hover > a{
+      color:#FFFFFF;
+  }
+  
+  nav ul li:hover > ul {
+    display:block;
+  }
+  
+  nav ul ul {
+    background: #66347F;
+    padding:0;
+    text-align: center;
+    display:none;
+      width: 100%;
+    top: 60px;
+    left: 0px;
+  }
+  
+   .minnav{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+   }
+   .pfp{
+    display: inline-block;
+    margin: -100px 0px 0px 110px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius:100%;
+  }
+  
+  .name{
+    font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.9px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 200;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: lowercase;
+    text-transform: scale(110%);
+    text-align: center;
+    cursor: pointer;
+  }
+.ssilki{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+  .button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #bebebe;
+    box-shadow: 0px 15px 20px #bebebe(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  a{
+    text-decoration: none;
+  }
+  .tocen{
+    display: flex;
+    justify-content: center;
+  }
+  .from-dohee {
+    width: 190px;
+    height: auto;
+    font: 16px 'nanum pen script';
+    color: #1d1d1d;
+    text-align: justify;
+    line-height: 25px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(140,140,140,0.4);
+    border-radius: 8px;
+    transform: rotate(-5deg);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .from-dohee-tape {
+    width: 75px;
+    height: 25px;
+    background: rgba(219, 209, 237, 0.5);
+    border: 1px solid rgba(219, 209, 237, 197);
+    top: -8%; left: 28%;
+    position: absolute;
+  }
+  
+  .dh {font-size: 24px; font-family: 'nanum pen script';}
+
+  
+@media (max-width:760px){
+  hr{
+    padding: 40px;
+  }
+  .song{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: -10px;
+    font-size: 20px;
+    margin-right: 250px;
+  }
+  .play{
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 180px;
+    margin-right: 300px;
+    position: absolute;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: auto;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  nav ul li a {
+    height: 40px;
+     line-height: 10px;
+     padding: 10px;
+     display:block;
+     text-decoration:none;
+  }
+  .pfp{
+    display: inline-block;
+    margin: -15px 110px -10px 110px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius:100%;
+  }
+}
